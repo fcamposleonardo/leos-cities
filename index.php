@@ -21,6 +21,9 @@
         <i class="fa-brands fa-linkedin fa-xl" style="color: #000000;"></i>
       </div>
     </nav>
+  <nav class="navbar azul" position ="absolute" width="1440px height="48px" left="0px" top="141px" style="background-color: blue">
+
+  </nav>
   
 
   </header>
