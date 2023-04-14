@@ -7,14 +7,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="assets\css\styles.css" href="">
   <script src="https://kit.fontawesome.com/cafc52a010.js" crossorigin="anonymous"></script>
   <title>Leos Cities</title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar branca" positiion="absolute" width="1439px" height="141px" left="0px" top="4px"
-      style="background-color: white">
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets\img\leoscities-low-resolution-logo-black-on-transparent-background.png" class="img-fluid"
+          alt="" position="absolute" width="172px" height="81px" left="0px" top="0px">
+        </a>
+        <p>
+          <font size="2"><br> Green Cities | Smart Infrastructure | Real Estate | Public Private Partnership</font>
+        </p>
+        <div class="socialMedia mr-5">
+          <i class="fa-brands fa-facebook fa-xl" style="color: #000000;"></i>
+          <i class="fa-brands fa-linkedin fa-xl" style="color: #000000;"></i>
+        </div>
+      </div>
+    </nav>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blogs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FAQs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Clients</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+  </header>
+  
+    <!-- <nav class="navbar-branca">
       <div class="row">
         <img src="assets\img\leoscities-low-resolution-logo-black-on-transparent-background.png" class="img-fluid"
           alt="" position="absolute" width="172px" height="81px" left="0px" top="0px">
@@ -22,16 +65,13 @@
           <font size="2"><br> Green Cities | Smart Infrastructure | Real Estate | Public Private Partnership</font>
         </p>
       </div>
-      <div class="socialMedia mr-5" position="absolute" width="108px" height="60px" left="153px" top="43px">
+      <div class="socialMedia mr-5">
         <i class="fa-brands fa-facebook fa-xl" style="color: #000000;"></i>
         <i class="fa-brands fa-linkedin fa-xl" style="color: #000000;"></i>
       </div>
     </nav>
-    <nav class="navbar azul" position="absolute" width="1434px height=" 48px" left="0px" top="141px"
-      style="background-color: blue">
-
-    </nav>
-
+    <nav class="navbar azul bg-blue" position="absolute" width="1434px height=" 48px" left="0px" top="141px"
+      style="background-color: blue"> -->
 
   </header>
   <!-- Button trigger modal -->
