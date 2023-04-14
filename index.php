@@ -20,9 +20,14 @@
           <img src="assets\img\leoscities-low-resolution-logo-black-on-transparent-background.png" class="img-fluid"
           alt="" position="absolute" width="172px" height="81px" left="0px" top="0px">
         </a>
-        <p>
+        <nav class="nav">
+          <a class="nav-link" href="#">Green Cities</a>
+          <a class="nav-link" href="#">Smart Infrastructure</a>
+          <a class="nav-link" href="#">Real Estate</a>
+          <a class="nav-link" href="#">Public Private Partnership</a>
+        </nav><!-- <p>
           <font size="2"><br> Green Cities | Smart Infrastructure | Real Estate | Public Private Partnership</font>
-        </p>
+        </p> -->
         <div class="socialMedia mr-5">
           <i class="fa-brands fa-facebook fa-xl" style="color: #000000;"></i>
           <i class="fa-brands fa-linkedin fa-xl" style="color: #000000;"></i>
