@@ -168,6 +168,17 @@
 
       console.log('resultado', var1 * (var2 + var3));
 
+      function imprimeTextoComNumeroMoedaReal(texto, numero){
+        resultado = texto + numero.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'});
+        console.log(resultado)
+        return resultado
+      }
+      
+      config_pt_brjson = {
+        style:"currency",
+        currency: 'BRL'
+      }
+
     </script>
 </body>
 
